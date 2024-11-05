@@ -9,13 +9,4 @@ function toggleMode() {
   } else {
     img.setAttribute("src", "./assets/avatar.png")
   }
-
-  if (img.contains("./assets/avatar-light.png")) {
-    Text.setAttribute("alt", "Mayk Brito de jaqueta preta e óculos escuros")
-  } else {
-    Text.setAttribute(
-      "alt",
-      "Foto Mayk Brito de camisa preta sorrindo e óculos de grau"
-    )
-  }
 }
